@@ -65,8 +65,6 @@ header nav ul li a:hover {
 /* Header styles end */
 /* Footer styles start */
 footer{
-    margin-top: auto;
-    position: absolute;
     bottom: 0;
     background: var(--primary-color);
     height: auto;
@@ -179,7 +177,6 @@ display: block;
     text-shadow: 1px 1px var(--secondary-color);
     font-weight: bolder;   
 }
-/*
 .side {
     float: left;
     margin: 0 1.5%;
@@ -190,4 +187,3 @@ display: block;
     margin: 0 1.5%;
     width: 60%;
 }
-*/
