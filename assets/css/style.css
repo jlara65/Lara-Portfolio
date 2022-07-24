@@ -180,37 +180,61 @@ display: block;
 .side {
     float: left;
     margin: 0 1.5%;
-    width: 30%;
     padding: 15px;
-    align-items: center;
+}
+.side h2 {
+    font-weight: bolder;
+    font-size: x-large;
 }
 .about , .projects, .contact-info {
     float: right;
     margin: 10px 10px 50px;
-    width: 60%;
+    width: 75%;
 }
 #about-me {
     margin-top: 5px;
     margin-bottom:75px;
 }
 #my-works {
-    margin-bottom: 730px;
+    margin-bottom: 938px;
+}
+.mainimg {
+    border: 3px solid var(--primary-color);
+    border-radius: 15px;
 }
 .row{
     float: left;
     width: 33.33%;
     padding: 5px;
     border: 3px solid var(--primary-color);
+    border-radius: 15px;
 }
 .row::after {
     content: "";
     clear: both;
     display: table;
 }
-
 img {
     transition: all .2s ease-in-out;
+    border-radius: 15px;
 }
 img:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
+}
+figure {
+    display: flex;
+    flex-flow: column;
+    margin: auto;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bolder;
+}
+.contact-info ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    list-style: none;
+    align-items: none;
+    font-weight: bolder;
+    font-size: larger;
 }
