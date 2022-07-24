@@ -164,12 +164,12 @@ display: block;
     background-attachment: fixed;
     background-position: 80%;
     width: 100vw;
-    height: 100vh;
+    height: 75vh;
 
 }
 .quote {
     position: absolute;
-    bottom: -100px;
+    bottom: 75px;
     right: 16px;
     line-height: 2.4; 
     font-size: 34px;
@@ -183,7 +183,6 @@ display: block;
     width: 30%;
     padding: 15px;
     align-items: center;
-    
 }
 .about , .projects, .contact-info {
     float: right;
@@ -195,6 +194,23 @@ display: block;
     margin-bottom:75px;
 }
 #my-works {
-    margin-bottom: 750px;
+    margin-bottom: 730px;
+}
+.row{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    border: 3px solid var(--primary-color);
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
+img {
+    transition: all .2s ease-in-out;
+}
+img:hover {
+    transform: scale(1.2);
+}
