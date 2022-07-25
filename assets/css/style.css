@@ -4,7 +4,7 @@
     --tertiary-color: #c19434;
 }
 * {
-    padding: 0;
+    padding: 5;
     margin: 0;
     box-sizing: border-box;
    
@@ -122,10 +122,8 @@ footer{
     width: 100vw;
     padding: 20px;
     padding-bottom: 40px;
-    text-align: center;
 }
 .footer-bottom p{
-    float: left;
     font-size: 14px;
     word-spacing: 2px;
     text-transform: capitalize;
@@ -177,27 +175,23 @@ display: block;
     text-shadow: 1px 1px var(--secondary-color);
     font-weight: bolder;   
 }
-.side {
-    float: left;
-    margin: 0 1.5%;
-    padding: 15px;
+main h2 {
+    text-align: center;
+    font-size: xx-large;
+    padding: 1%;
+    color: var(--primary-color);
 }
-.side h2 {
-    font-weight: bolder;
-    font-size: x-large;
+
+.about p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: var(--primary-color);
 }
-.about , .projects, .contact-info {
-    float: right;
-    margin: 10px 10px 50px;
-    width: 75%;
-}
-#about-me {
+#about-me, #my-works, #contact-me{
     margin-top: 5px;
-    margin-bottom:75px;
+    margin-bottom:50px;
 }
-#my-works {
-    margin-bottom: 938px;
-}
+
 .mainimg {
     border: 3px solid var(--primary-color);
     border-radius: 15px;
@@ -233,8 +227,71 @@ figure {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    list-style: none;
-    align-items: none;
     font-weight: bolder;
-    font-size: larger;
+    font-size: x-large;
+    padding-bottom: 15px;
+    list-style: square;
+}
+
+
+@media screen and (max-width: 980px) {
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative; 
+    }
+    header h1 {
+        width: 100%;
+        text-align: center;
+    }
+    header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+    header nav ul li a {
+        font-size: 20px;
+    }
+    .quote {
+        width: 100%;
+        text-align: center;
+        font-size: 40px;
+        position: relative;
+        margin: 0;
+        margin-top: 90px;
+    }
+    
+    .row {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+@media  screen and (max-width: 768px) {
+    .hero {
+        height: 60vh;
+    }
+    .contact-info ul {
+        font-size: small;
+        display: flex;
+        flex-wrap: wrap;
+        flex-wrap: wrap;
+        list-style: none;
+    }
+}
+@media screen and (max-width: 570px) {
+    figure {
+        font-size: small;
+    }
+    
+    .footer-menu ul{
+        display:flex;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .footer-bottom P {
+        display: flex;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
 }
