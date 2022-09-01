@@ -11,7 +11,7 @@ This page has be built from scratch to display of my portfolio. Here is the list
  - This page is viewable on various screens and devices.
 
 ## Screenshot
-![Screenshot](./assets/images/PortfolioCapture.png)
+![Screenshot](./assets/images/PortfolioCapture2.png)
 
 ## GitHub Page Link
 Click [here](https://jlara65.github.io/Lara-Portfolio/) to view my portfolio page.
