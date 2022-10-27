@@ -1,171 +1,217 @@
 <!DOCTYPE html>
 <html lang="en-us">
-<head>
+  <head>
     <!--Meta tags for character encoding and responsive size content -->
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!--Linked to css and website for logo-->
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
 
     <!--Tab Title name-->
     <title>Lara's Portfolio</title>
-</head>
-<body>
+  </head>
+  <body>
     <!--Header-->
     <header>
-        <!--Navigation-->
-        <h1>
-            <!--anchor Lara's Portfolio to home page-->
-            <a href="./index.html">Lara's Portfolio</a>
-        </h1>
+      <!--Navigation-->
+      <h1>
+        <!--anchor Lara's Portfolio to home page-->
+        <a href="./index.html">Lara's Portfolio</a>
+      </h1>
 
-        <nav>
-            <!--unordered list element-->
-            <ul>
-                <!---list item element-->
-                <li>
-                    <!--anchor element-->
-                    <a href="#about-me">About Me </a>
-                </li>
-                <!---list item element-->
-                <li>
-                    <!--anchor element-->
-                    <a href="#my-works">My Works</a>
-                </li>
-                <!---list item element-->
-                <li>
-                    <!--anchor element-->
-                    <a href="#contact-me">Contact Me</a>
-                </li>
-                <!---list item element-->
-                <li>
-                    <!--anchor element-->
-                    <a href="./resume.html" target="blank">Resume</a>
-                </li>
-            </ul>
-        </nav> <!--end of navigation-->
-
+      <nav>
+        <!--unordered list element-->
+        <ul>
+          <!---list item element-->
+          <li>
+            <!--anchor element-->
+            <a href="#about-me">About Me </a>
+          </li>
+          <!---list item element-->
+          <li>
+            <!--anchor element-->
+            <a href="#my-works">My Works</a>
+          </li>
+          <!---list item element-->
+          <li>
+            <!--anchor element-->
+            <a href="#contact-me">Contact Me</a>
+          </li>
+          <!---list item element-->
+          <li>
+            <!--anchor element-->
+            <a href="./resume.html" target="blank">Resume</a>
+          </li>
+        </ul>
+      </nav>
+      <!--end of navigation-->
     </header>
     <!--Hero/jumbotron-->
-        <section class="hero">
-            <div class="quote">
-                <!--The inline Quotation Element-->
-                <q>
-                    Do or do not. There is no try.
-                </q>
-                <!--Figure caption element of cite-->
-                <figcaption>
-                    &mdash; Yoda, <cite>Empire Strike Back</cite>
-                </figcaption>
-            </div>
-        </section>
-        
+    <section class="hero">
+      <div class="quote">
+        <!--The inline Quotation Element-->
+        <q> Do or do not. There is no try. </q>
+        <!--Figure caption element of cite-->
+        <figcaption>&mdash; Yoda, <cite>Empire Strike Back</cite></figcaption>
+      </div>
+    </section>
 
     <!--Middle section of body-->
     <main>
-        <section class="pic">
-            <img src="./assets/images/Profile.png" alt="avatar profile" width="25%" height="25%"/>
+      <section class="pic">
+        <img
+          src="./assets/images/Profile.png"
+          alt="avatar profile"
+          width="25%"
+          height="25%"
+        />
+      </section>
+      <article>
+        <!--article section of about, projects, and contact info-->
+        <section class="about">
+          <h2 id="about-me">About Me</h2>
+          <p>
+            <!--an paragraph for about me-->
+            My name is Joseph, a master of Dark Side from Texas, currently
+            working as a frontend developer at Death Star. Currently developing
+            technology to increase the power of The Force. Using my 35 BBY
+            experience, I created the self-learned Droids, lightsabers,
+            Millennium Falcon, and X-Wings. Fun fact about me is that I am
+            undefeated in food challenge!
+          </p>
         </section>
-        <article> <!--article section of about, projects, and contact info-->
-                <section class="about" >
-                <h2 id="about-me">About Me</h2>
-                <p> <!--an paragraph for about me-->
-                    My name is Joseph, a master of Dark Side from Texas, currently working as a frontend developer at Death Star. Currently developing technology to increase the power of The Force. Using my 35 BBY experience, I created the self-learned Droids, lightsabers, Millennium Falcon, and X-Wings. Fun fact about me is that I am undefeated in food challenge!
-                </p>
-            </section>
-            <section class="projects" > <!--display my work included hyperlink to each project-->
-                <h2 id="my-works">My Works</h2>
-                <div class="mainimg">
-                    <figure>
-                    <a href="https://jlara65.github.io/music-player/" target="blank"><img src="./assets/images/Music App Screenshot.png" alt="screenshot list of artist's track" class="first-project" width="100%"/></a>
-                    <figcaption>Music Player App</figcaption>
-                    </figure>
-                </div>
-                <div class="row">
-                    <figure>
-                    <a href="https://jlara65.github.io/Horiseon-Code-Refactor/" target="blank"><img src="./assets/images/second-project.png" alt="screenshot of website with group of 4 work on table" width="100%"/></a>
-                    <figcaption>Horiseon</figcaption>
-                    </figure>
-                </div>
-                <div class="row">
-                    <figure>
-                        <a href="https://jlara65.github.io/run-buddy/run-buddy/" target="blank"><img src="./assets/images/first-project.png" alt="" style="width:100%" /></a>
-                    <figcaption>Run Buddy</figcaption>
-                    </figure>
-                </div>
-                <div class="row">
-                    <figure>
-                    <a href="./resume.html" target="blank"><img src="./assets/images/third-project.jpg" alt="screenshot of 404 Not found page" style="width:100%" /></a>
-                    <figcaption>Coming Soon</figcaption>
-                    </figure>
-                </div>
-
-            </section> 
-            <section class="contact-info"> <!--list of contact info-->
-                <h2 id="contact-me">Contact Me</h2>
-                <ul>
-                    <li>
-                        <a href="tel:210-444-4444">210-444-4444</a>
-                    </li>
-                    <li>
-                        <a href="mailto:johndoe@domain.com" >johndoe@domain.com</a>
-                    </li>
-                    <li>
-                        <a href="https://github.com" target="blank">My GitHub</a>
-                    </li>
-                    <li>
-                        <a href="https://twitter.com" target="blank">Twitter</a>
-                    </li>
-                </ul>
-            </section>
-        </article> <!--end of article section-->
-    </main> 
+        <section class="projects">
+          <!--display my work included hyperlink to each project-->
+          <h2 id="my-works">My Works</h2>
+          <div class="mainimg">
+            <figure>
+              <a href="https://jlara65.github.io/music-player/" target="blank"
+                ><img
+                  src="./assets/images/Music App Screenshot.png"
+                  alt="screenshot list of artist's track"
+                  class="first-project"
+                  width="100%"
+              /></a>
+              <figcaption>Music Player App</figcaption>
+            </figure>
+          </div>
+          <div class="row">
+            <figure>
+              <a
+                href="https://jlara65.github.io/Horiseon-Code-Refactor/"
+                target="blank"
+                ><img
+                  src="./assets/images/second-project.png"
+                  alt="screenshot of website with group of 4 work on table"
+                  width="100%"
+              /></a>
+              <figcaption>Horiseon</figcaption>
+            </figure>
+          </div>
+          <div class="row">
+            <figure>
+              <a
+                href="https://jlara65.github.io/run-buddy/run-buddy/"
+                target="blank"
+                ><img
+                  src="./assets/images/first-project.png"
+                  alt=""
+                  style="width: 100%"
+              /></a>
+              <figcaption>Run Buddy</figcaption>
+            </figure>
+          </div>
+          <div class="row">
+            <figure>
+              <a href="https://polar-atoll-04436.herokuapp.com/" target="blank"
+                ><img
+                  src="./assets/images/SkyNet-Landing -Page.png"
+                  alt="screenshot of SkyNet Watch Project"
+                  style="width: 100%"
+              /></a>
+              <figcaption>SkyNet Watch</figcaption>
+            </figure>
+          </div>
+        </section>
+        <section class="contact-info">
+          <!--list of contact info-->
+          <h2 id="contact-me">Contact Me</h2>
+          <ul>
+            <li>
+              <a href="tel:210-444-4444">210-444-4444</a>
+            </li>
+            <li>
+              <a href="mailto:johndoe@domain.com">johndoe@domain.com</a>
+            </li>
+            <li>
+              <a href="https://github.com" target="blank">My GitHub</a>
+            </li>
+            <li>
+              <a href="https://twitter.com" target="blank">Twitter</a>
+            </li>
+          </ul>
+        </section>
+      </article>
+      <!--end of article section-->
+    </main>
     <!--footer-->
     <footer>
-        <section class="footer-content"> <!--list of links in the bottom of page-->
-            <h3>End of Page</h3>
-            <p>Thank you for stopping by our site.</p>
-            <ul class="socials">
-                <li>
-                    <a href="https://www.facebook.com" target="blank"><i class="fa fa-facebook"></i></a>
-                </li>
-                <li>
-                    <a href="https://www.twitter.com" target="blank"><i class="fa fa-twitter"></i></a>
-                </li>
-                <li>
-                    <a href="https://www.youtube.com" target="blank"><i class="fa fa-youtube"></i></a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com" target="blank"><i class="fa fa-linkedin-square"></i></a>
-                </li>
-                <li>
-                    <a href="https://www.github.com" target="blank"><i class="fa fa-github"></i></a>
-                </li>
-            </ul>
-        </section>
-        <section class="footer-bottom">
-            <p>
-                copyright &copy 2022 <span>Lara Productions;</span>
-            </p>
-            <div class="footer-menu">
-                <ul class="f-menu">
-                    <li>
-                        <a href="./index.html">Home</a>
-                    </li>
-                    <li>
-                        <a href="#about-me">About Me</a>
-                    </li>
-                    <li>
-                        <a href="#my-works">My Works</a>
-                    </li>
-                    <li>
-                        <a href="#contact-me">Contact Me</a>
-                    </li>
-                </ul>
-            </div>
-        </section>
+      <section class="footer-content">
+        <!--list of links in the bottom of page-->
+        <h3>End of Page</h3>
+        <p>Thank you for stopping by our site.</p>
+        <ul class="socials">
+          <li>
+            <a href="https://www.facebook.com" target="blank"
+              ><i class="fa fa-facebook"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.twitter.com" target="blank"
+              ><i class="fa fa-twitter"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com" target="blank"
+              ><i class="fa fa-youtube"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com" target="blank"
+              ><i class="fa fa-linkedin-square"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.github.com" target="blank"
+              ><i class="fa fa-github"></i
+            ></a>
+          </li>
+        </ul>
+      </section>
+      <section class="footer-bottom">
+        <p>copyright &copy 2022 <span>Lara Productions;</span></p>
+        <div class="footer-menu">
+          <ul class="f-menu">
+            <li>
+              <a href="./index.html">Home</a>
+            </li>
+            <li>
+              <a href="#about-me">About Me</a>
+            </li>
+            <li>
+              <a href="#my-works">My Works</a>
+            </li>
+            <li>
+              <a href="#contact-me">Contact Me</a>
+            </li>
+          </ul>
+        </div>
+      </section>
     </footer>
-</body>
+  </body>
 </html>
